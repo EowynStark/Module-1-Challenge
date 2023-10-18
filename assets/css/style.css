@@ -7,40 +7,37 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/*formats the title bar*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
+    display:block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*changes the color of "seo" in title*/
+.seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*formats navigational list (should be inline with title bar-needs adjusted)*/
+#nav {
     padding-top: 15px;
     margin-right: 20px;
+    margin-left: 25px;
     float: right;
+    color: #ffffff;
+    background-color:#2a607c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: inline;
 }
 
-.header div ul {
+ul {
     list-style-type: none;
 }
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/*formats navigational list to be hidden links*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +47,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
